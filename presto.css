@@ -1,0 +1,413 @@
+*{
+    font-family: monospace;
+
+}
+
+:root{
+    --col1: rgb(12, 12, 12);
+    --col2:rgb(231,216,187);
+    --col3:rgb(74, 71, 8);
+    --col4: white;
+    --col5: rgb(25, 4, 4);
+    --col6: rgb(145, 90, 116);
+ 
+ }
+
+.bg-1{
+    background-color: var(--col1) !important;
+}
+
+
+.bg-2{
+    color: var(--col2);
+}
+
+.bg-3{
+    color: var(--col1);
+}
+.bg-4{
+    background-color: var(--col4) !important;
+}
+
+.bg-5{
+    background-color: var(--col5) !important;
+}
+
+.bg-6{
+    background-color: var(--col6)!important;
+}
+
+.logoCustom{
+    height: 80px;
+    width: 120px;
+    margin-right: 5vh;
+}
+
+.navCustom{
+    background: rgb(231,216,187);
+    background: linear-gradient(90deg, rgba(231,216,187,1) 0%, rgba(231,216,187,1) 38%, rgba(255,255,255,0) 100%);
+    border-radius: 150px 10px 10px 300px ;
+    height: 100px;
+    width: 100%;
+    transition: 1s
+}
+
+.nav-link{
+    border-bottom: transparent;
+}
+
+.nav-link:hover{
+    color: var(--col4);
+    border-bottom: 2px solid white ;
+    font-weight: lighter;
+}
+
+
+
+li{
+    font-size: x-large;
+    padding: 10px;
+    letter-spacing: 6px;
+}
+
+.navbar-blur{
+    backdrop-filter: blur(9px) saturate(0.8);
+    
+}
+
+span{
+    height: 40px;
+    padding: 5px;
+}
+input{
+    background-color:rgba(255, 255, 255, 0.852)!important;
+    
+}
+
+
+
+/* FINE NAV BAR */
+
+
+i{
+    cursor: pointer;
+}
+
+
+/* MOSAICO IMMAGINI */
+
+.galleria {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.galleria__immagine {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenitore {
+    width: 60%;
+    margin: 2rem auto;
+  }
+
+  @media screen and (max-width: 500px){
+
+    .contenitore{
+    width: 100%;
+    height: 100%;                  
+}
+}
+  
+  .galleria {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem;
+  }
+  
+
+ 
+  .galleria__elemento--1 {
+    background-image: url('https://template181451.motopreview.com/mt-demo/181400/181451/mt-content/uploads/2021/04/mt-2213_home_banner02.jpg');
+    background-size: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.galleria__elemento--2 {
+    background-image: url('https://template181451.motopreview.com/mt-demo/181400/181451/mt-content/uploads/2021/04/mt-2213_home_banner03.jpg');
+    background-size: auto;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.galleria__elemento--3 {
+    background-image: url('https://static.zara.net/photos///2023/I/T/2/p/9000/000/096/2/w/1024/9000000096_1_1_1.jpg?ts=1689750478661');
+    background-size: auto;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+    animation-name: movimento;
+    animation-iteration-count:infinite ;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.galleria__elemento--4 {
+    background-image: url('https://template181451.motopreview.com/mt-demo/181400/181451/mt-content/uploads/2021/04/mt-2213_home_banner01.jpg');
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.galleria__elemento--5 {
+    background-image: url('https://static.zara.net/photos//contents/mkt/spots/aw23-north-woman-man-barbie/layout-editorial//aw23-north-woman-man-barbie.layout-editorial.layout-1920-eb51cc23c82e707f3462f4927e5189af947fc00c-CROP-0.830_0.jpg?ts=1689846772837&imwidth=2168');
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.galleria__elemento--6 {
+    background-image: url('https://img.freepik.com/free-psd/fashion-flash-sale-template-psd-blog-banner_53876-138818.jpg?size=626&ext=jpg&ga=GA1.1.400192378.1688292853&semt=ais');
+    background-size:cover;
+    background-repeat: no-repeat;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+
+    @keyframes movimento {
+        0% {background-position: left;};
+        100%{background-position: right;}
+        
+    }
+
+
+
+/* HEADER */
+
+    .header-custom{
+        height: 70vh;
+        background: linear-gradient(rgba(230,230,230, 0.9),rgba(230,230,230, 0.0) ), url(https://static.zara.net/photos///contents/mkt/spots/aw23-north-woman-new/subhome-xmedia-29//w/2560/IMAGE-landscape-fill-859fe041-727f-4763-951a-19f65139495b-default_0.jpg?ts=1689800911500);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        animation-name: hed ;
+        animation-iteration-count: infinite;
+        animation-duration: 14s;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+
+    @keyframes hed {
+        0% {background-position: left;};
+        100%{background-position: right;};
+    }
+
+
+    .icon-section{
+        color: white;
+        padding: 20px;
+        border-radius: 50%;
+        border: 2px solid ;
+    }
+    
+    .icon-section:hover{
+        color:  rgba(231,216,187,1);
+        padding: 20px;
+        border-radius: 50%;
+        border: 2px solid ;
+        
+    }
+    
+    .text-gradient{
+        font-family: 'Cinzel', serif;
+        font-size: 70px;
+        background: -webkit-linear-gradient(90deg, rgba(231,216,187,1) 0%, rgba(231,216,187,1) 38%, rgba(255,255,255,0) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+
+
+
+
+
+/* SWIPER */
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-color: rgba(232, 230, 214, 0.86);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+  }
+
+  
+    .review-card{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+  
+
+  
+
+/* AGGIUNGI RECENSIONE */
+
+.btn-custom{
+    height: 50px;
+    width: 150px;
+    border: 2px solid var(--col2);
+    border-radius: 20px;
+    
+}
+
+.btn-custom:hover{
+    background-color: var(--col2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* DATI */
+
+    .number{
+        font-size: 50px;
+        color: var(--col2);
+        font-weight: 900;
+    }
+
+    .mostra{
+        border: 2px solid var(--col2);
+        border-radius: 20px;
+        color: var(--col1);
+        
+    }
+    
+
+/* FOOTER */
+
+    footer{
+        
+       
+        
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,0.6446953781512605) 0%, rgba(231,216,187,1) 52%, rgba(255,255,255,0) 100%);
+        text-align: center;
+        font-size: 1px;
+        margin-top: 20px;
+    }
+
+    .social-icons {
+        font-size: 15px; 
+        text-align: center; 
+      }
+
+
+
+
+
+
+      
+
+
+
+      /* FINE HOMEPAGE */
+
+
+
+
+
+
+
+      /* INIZIO SHOP */
+         
+      .title{
+       background-image: url(https://www.prada.com/content/dam/pradanux/e-commerce/2023/07/CO_FW23/categories/woman/bags/1x4_DT.jpg);
+       background-size:cover;
+       height: 70vh;
+      }
+
+      .ttt{
+        height: 70vh;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+      }
+
+      .tit2{            
+        background: -webkit-linear-gradient(90deg, rgba(231,216,187,1) 0%, rgb(224, 221, 214) 38%, rgba(255,255,255,0) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 5vh;
+        margin-right: 5vh;
+      }
+
+
+
+
+   .card-custom{
+    width: 250px;
+    height: 340px;
+    border: 1px solid rgba(64, 63, 63, 0.482);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.card-custom img {
+    width: 100%;
+    height: 200px; /* Altezza dell'immagine nella card */
+    object-fit: cover; /* Per adattare l'immagine all'interno del riquadro senza distorsioni */
+    border-radius: 20px 20px 0 0; /* Per arrotondare solo gli angoli superiori */
+}
+     
+
+
+.scroll{
+    height: 300px;
+}
+
+
+.form-check-input:checked{
+    background-color: var(--col2) !important;
+    border-color: var(--col2);
+
+  }

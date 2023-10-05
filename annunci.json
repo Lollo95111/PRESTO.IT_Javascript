@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "name": "Occhiali Prada Symbole",
+        "category": "Accessori",
+        "price": "380",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/S/SPR/SPR09Z/E1ABF05S0/SPR09Z_E1AB_F05S0_C_054_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bomber oversize in nappa",
+        "category": "Giacche",
+        "price": "5000",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/S/SC5/SC540/1U1IF0065/SC540_1U1I_F0065_S_211_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Camicia in cotone stampata",
+        "category": "Camice",
+        "price": "950",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/U/UCS/UCS438/1VISF03LS/UCS438_1VIS_F03LS_S_231_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Camicia in bull denim",
+        "category": "Camice",
+        "price": "1050",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/G/GEC/GEC067/12CDF0F4Q/GEC067_12CD_F0F4Q_S_212_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bermuda in popeline",
+        "category": "Pantaloni",
+        "price": "790",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/S/SPH/SPH213/1VJPF0009/SPH213_1VJP_F0009_S_221_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Cintura in pelle",
+        "category": "Accessori",
+        "price":"580",
+        "image": "https://www.prada.com/content/dam/pradabkg_products/2/2CC/2CC546/R2ZF0002/2CC546_R2Z_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.800.800.jpg"
+
+    }
+    
+]

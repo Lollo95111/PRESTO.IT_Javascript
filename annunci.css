@@ -1,0 +1,98 @@
+
+
+*{
+    font-family: monospace;
+
+}
+
+:root{
+    --col1: rgb(12, 12, 12);
+    --col2:rgb(231,216,187);
+    --col3:rgb(74, 71, 8);
+    --col4: white;
+    --col5: rgb(25, 4, 4);
+    --col6: rgb(145, 90, 116);
+ 
+ }
+
+.bg-1{
+    background-color: var(--col1) !important;
+}
+
+
+.bg-2{
+    color: var(--col2);
+}
+
+.bg-3{
+    color: var(--col1);
+}
+.bg-4{
+    background-color: var(--col4) !important;
+}
+
+.bg-5{
+    background-color: var(--col5) !important;
+}
+
+.bg-6{
+    background-color: var(--col6)!important;
+}
+
+.logoCustom{
+    height: 80px;
+    width: 120px;
+    margin-right: 5vh;
+}
+
+.navCustom{
+    background: rgb(231,216,187);
+    background: linear-gradient(90deg, rgba(231,216,187,1) 0%, rgba(231,216,187,1) 38%, rgba(255,255,255,0) 100%);
+    border-radius: 150px 10px 10px 300px ;
+    height: 100px;
+    width: 100%;
+    transition: 1s
+}
+
+.nav-link{
+    border-bottom: transparent;
+}
+
+.nav-link:hover{
+    color: var(--col4);
+    border-bottom: 2px solid white ;
+    font-weight: lighter;
+}
+
+
+
+li{
+    font-size: x-large;
+    padding: 10px;
+    letter-spacing: 6px;
+}
+
+.navbar-blur{
+    backdrop-filter: blur(9px) saturate(0.8);
+    
+}
+
+span{
+    height: 40px;
+    padding: 5px;
+}
+input{
+    background-color:rgba(255, 255, 255, 0.852)!important;
+    
+}
+
+
+
+/* FINE NAV BAR */
+
+
+i{
+    cursor: pointer;
+}
+
+
